@@ -31,4 +31,7 @@ wandb/
 .DS_Store
 
 # Temporary packaging artifacts
-results_package_for_chatgpt.zip
+*chatgpt*
+*backup*
+*tmp*
+*temp*
