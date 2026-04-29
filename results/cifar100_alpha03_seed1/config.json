@@ -1,0 +1,10 @@
+{
+  "experiment_name": "cifar100_alpha03_seed1",
+  "num_clients": 20,
+  "alpha": 0.3,
+  "seed": 1,
+  "num_classes": 100,
+  "rounds": 15,
+  "local_epochs": 1,
+  "batch_size": 32
+}

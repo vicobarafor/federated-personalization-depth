@@ -1,0 +1,218 @@
+{
+  "round_1": {
+    "0": {
+      "shift": {
+        "conv1": 0.10314226150512695,
+        "conv2": 0.08371682465076447,
+        "fc1": 0.08710704743862152
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "1": {
+      "shift": {
+        "conv1": 0.03318372368812561,
+        "conv2": 0.02932213991880417,
+        "fc1": 0.026409918442368507
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "2": {
+      "shift": {
+        "conv1": 0.02490868791937828,
+        "conv2": 0.020895153284072876,
+        "fc1": 0.015954867005348206
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "3": {
+      "shift": {
+        "conv1": 0.04698515683412552,
+        "conv2": 0.03856997936964035,
+        "fc1": 0.0354633703827858
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "4": {
+      "shift": {
+        "conv1": 0.0794239416718483,
+        "conv2": 0.06971631199121475,
+        "fc1": 0.05747488886117935
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    }
+  },
+  "round_2": {
+    "0": {
+      "shift": {
+        "conv1": 0.10879498720169067,
+        "conv2": 0.0910780280828476,
+        "fc1": 0.12285879999399185
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "1": {
+      "shift": {
+        "conv1": 0.03253578394651413,
+        "conv2": 0.030256658792495728,
+        "fc1": 0.040837857872247696
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "2": {
+      "shift": {
+        "conv1": 0.027824804186820984,
+        "conv2": 0.02385735511779785,
+        "fc1": 0.03677748888731003
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "3": {
+      "shift": {
+        "conv1": 0.04627694934606552,
+        "conv2": 0.03793906420469284,
+        "fc1": 0.028280993923544884
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "4": {
+      "shift": {
+        "conv1": 0.0829540267586708,
+        "conv2": 0.07878522574901581,
+        "fc1": 0.07404253631830215
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    }
+  },
+  "round_3": {
+    "0": {
+      "shift": {
+        "conv1": 0.11277823895215988,
+        "conv2": 0.09647588431835175,
+        "fc1": 0.15731148421764374
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "1": {
+      "shift": {
+        "conv1": 0.033976659178733826,
+        "conv2": 0.031612612307071686,
+        "fc1": 0.05842933803796768
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "2": {
+      "shift": {
+        "conv1": 0.03133136034011841,
+        "conv2": 0.026108309626579285,
+        "fc1": 0.047730740159749985
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "3": {
+      "shift": {
+        "conv1": 0.04859032854437828,
+        "conv2": 0.0397828109562397,
+        "fc1": 0.029880395159125328
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    },
+    "4": {
+      "shift": {
+        "conv1": 0.08741769194602966,
+        "conv2": 0.0821680873632431,
+        "fc1": 0.07189024984836578
+      },
+      "selected_feature_layers": [
+        "conv1"
+      ],
+      "always_train": [
+        "fc1",
+        "fc2"
+      ]
+    }
+  }
+}

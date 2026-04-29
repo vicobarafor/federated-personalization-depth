@@ -1,0 +1,10 @@
+{
+  "head_only_mean_acc": 0.657581221288957,
+  "conv2_head_mean_acc": 0.6439960564537921,
+  "full_ft_mean_acc": 0.6906115170689966,
+  "wins": {
+    "head_only": 7,
+    "conv2_head": 2,
+    "full_ft": 11
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "experiment_name": "svhn_alpha10_seed0",
+  "num_clients": 20,
+  "alpha": 1.0,
+  "seed": 0,
+  "num_classes": 10,
+  "rounds": 5,
+  "local_epochs": 1,
+  "batch_size": 32
+}

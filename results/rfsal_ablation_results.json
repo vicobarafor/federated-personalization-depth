@@ -1,0 +1,743 @@
+{
+  "tau_0.7": {
+    "clients": {
+      "0": {
+        "shift": {
+          "conv1": 0.12017997354269028,
+          "conv2": 0.1397407054901123,
+          "fc1": 0.2452000379562378
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.6266951203346252,
+            "accuracy": 0.3984375
+          },
+          "head_only": {
+            "loss": 1.2467507034540177,
+            "accuracy": 0.5328125
+          },
+          "full_ft": {
+            "loss": 1.194569718837738,
+            "accuracy": 0.571875
+          },
+          "rfsal": {
+            "loss": 1.2385454952716828,
+            "accuracy": 0.5515625
+          },
+          "random_match": {
+            "loss": 1.2203562945127486,
+            "accuracy": 0.559375
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "1": {
+        "shift": {
+          "conv1": 0.03598630055785179,
+          "conv2": 0.03872549533843994,
+          "fc1": 0.07762154191732407
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.7558882415294648,
+            "accuracy": 0.3703125
+          },
+          "head_only": {
+            "loss": 1.0358853727579116,
+            "accuracy": 0.66875
+          },
+          "full_ft": {
+            "loss": 1.0643498331308365,
+            "accuracy": 0.6421875
+          },
+          "rfsal": {
+            "loss": 1.026154127717018,
+            "accuracy": 0.65625
+          },
+          "random_match": {
+            "loss": 1.015456458926201,
+            "accuracy": 0.665625
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "2": {
+        "shift": {
+          "conv1": 0.027216702699661255,
+          "conv2": 0.041483618319034576,
+          "fc1": 0.07940741628408432
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.7620387315750121,
+            "accuracy": 0.33125
+          },
+          "head_only": {
+            "loss": 1.3062274932861329,
+            "accuracy": 0.5125
+          },
+          "full_ft": {
+            "loss": 1.2872566103935241,
+            "accuracy": 0.5671875
+          },
+          "rfsal": {
+            "loss": 1.29997878074646,
+            "accuracy": 0.528125
+          },
+          "random_match": {
+            "loss": 1.358087557554245,
+            "accuracy": 0.5234375
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "3": {
+        "shift": {
+          "conv1": 0.05635273456573486,
+          "conv2": 0.05292539298534393,
+          "fc1": 0.057798705995082855
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2",
+          "conv1",
+          "conv2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2",
+          "conv2",
+          "conv1"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.447460150718689,
+            "accuracy": 0.4921875
+          },
+          "head_only": {
+            "loss": 1.2976093947887422,
+            "accuracy": 0.5265625
+          },
+          "full_ft": {
+            "loss": 1.2915510714054108,
+            "accuracy": 0.5453125
+          },
+          "rfsal": {
+            "loss": 1.455852222442627,
+            "accuracy": 0.3984375
+          },
+          "random_match": {
+            "loss": 1.315566110610962,
+            "accuracy": 0.525
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 545098,
+          "random_match": 545098,
+          "full_ft": 545098
+        }
+      },
+      "4": {
+        "shift": {
+          "conv1": 0.08942747116088867,
+          "conv2": 0.11302687972784042,
+          "fc1": 0.11538049578666687
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2",
+          "conv1",
+          "conv2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2",
+          "conv2",
+          "conv1"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.3813135027885437,
+            "accuracy": 0.5234375
+          },
+          "head_only": {
+            "loss": 1.059065255522728,
+            "accuracy": 0.59375
+          },
+          "full_ft": {
+            "loss": 1.1294679909944534,
+            "accuracy": 0.5375
+          },
+          "rfsal": {
+            "loss": 1.0209426820278167,
+            "accuracy": 0.615625
+          },
+          "random_match": {
+            "loss": 1.1260399490594863,
+            "accuracy": 0.5671875
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 545098,
+          "random_match": 545098,
+          "full_ft": 545098
+        }
+      }
+    },
+    "mean": {
+      "accuracy": {
+        "no_adapt": 0.42312500000000003,
+        "head_only": 0.566875,
+        "full_ft": 0.5728125000000001,
+        "rfsal": 0.55,
+        "random_match": 0.568125
+      },
+      "loss": {
+        "no_adapt": 1.594679149389267,
+        "head_only": 1.1891076439619064,
+        "full_ft": 1.1934390449523926,
+        "rfsal": 1.208294661641121,
+        "random_match": 1.2071012741327285
+      },
+      "params": {
+        "head_only": 525706.0,
+        "rfsal": 533462.8,
+        "random_match": 533462.8,
+        "full_ft": 545098.0
+      }
+    }
+  },
+  "tau_0.8": {
+    "clients": {
+      "0": {
+        "shift": {
+          "conv1": 0.12014004588127136,
+          "conv2": 0.13926833868026733,
+          "fc1": 0.24661439657211304
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.688789564371109,
+            "accuracy": 0.35
+          },
+          "head_only": {
+            "loss": 1.2376790463924408,
+            "accuracy": 0.5375
+          },
+          "full_ft": {
+            "loss": 1.1434922575950623,
+            "accuracy": 0.59375
+          },
+          "rfsal": {
+            "loss": 1.2882380962371827,
+            "accuracy": 0.540625
+          },
+          "random_match": {
+            "loss": 1.220905664563179,
+            "accuracy": 0.565625
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "1": {
+        "shift": {
+          "conv1": 0.03544709458947182,
+          "conv2": 0.03876157104969025,
+          "fc1": 0.07725897431373596
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.7865439832210541,
+            "accuracy": 0.371875
+          },
+          "head_only": {
+            "loss": 1.0775516122579574,
+            "accuracy": 0.6546875
+          },
+          "full_ft": {
+            "loss": 1.0690283983945847,
+            "accuracy": 0.6421875
+          },
+          "rfsal": {
+            "loss": 1.0673414587974548,
+            "accuracy": 0.6546875
+          },
+          "random_match": {
+            "loss": 1.0553697288036346,
+            "accuracy": 0.665625
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "2": {
+        "shift": {
+          "conv1": 0.028374267742037773,
+          "conv2": 0.04263066500425339,
+          "fc1": 0.07986145466566086
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.7311598837375641,
+            "accuracy": 0.3546875
+          },
+          "head_only": {
+            "loss": 1.3511446833610534,
+            "accuracy": 0.5234375
+          },
+          "full_ft": {
+            "loss": 1.282502329349518,
+            "accuracy": 0.54375
+          },
+          "rfsal": {
+            "loss": 1.3258009135723114,
+            "accuracy": 0.5265625
+          },
+          "random_match": {
+            "loss": 1.2544383108615875,
+            "accuracy": 0.5359375
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "3": {
+        "shift": {
+          "conv1": 0.056437812745571136,
+          "conv2": 0.05273320525884628,
+          "fc1": 0.05864105001091957
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2",
+          "conv1",
+          "conv2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2",
+          "conv2",
+          "conv1"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.4056750595569611,
+            "accuracy": 0.51875
+          },
+          "head_only": {
+            "loss": 1.2455711901187896,
+            "accuracy": 0.559375
+          },
+          "full_ft": {
+            "loss": 1.3088079512119293,
+            "accuracy": 0.5265625
+          },
+          "rfsal": {
+            "loss": 1.2438133835792542,
+            "accuracy": 0.5625
+          },
+          "random_match": {
+            "loss": 1.196420532464981,
+            "accuracy": 0.5953125
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 545098,
+          "random_match": 545098,
+          "full_ft": 545098
+        }
+      },
+      "4": {
+        "shift": {
+          "conv1": 0.09010513126850128,
+          "conv2": 0.11296303570270538,
+          "fc1": 0.11672849208116531
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2",
+          "conv2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2",
+          "conv2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.398837047815323,
+            "accuracy": 0.5109375
+          },
+          "head_only": {
+            "loss": 1.1013880997896195,
+            "accuracy": 0.559375
+          },
+          "full_ft": {
+            "loss": 1.039466768503189,
+            "accuracy": 0.6078125
+          },
+          "rfsal": {
+            "loss": 1.0696082651615142,
+            "accuracy": 0.5890625
+          },
+          "random_match": {
+            "loss": 1.0603996217250824,
+            "accuracy": 0.61875
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 544202,
+          "random_match": 544202,
+          "full_ft": 545098
+        }
+      }
+    },
+    "mean": {
+      "accuracy": {
+        "no_adapt": 0.42125,
+        "head_only": 0.5668749999999999,
+        "full_ft": 0.5828125,
+        "rfsal": 0.5746875,
+        "random_match": 0.5962500000000001
+      },
+      "loss": {
+        "no_adapt": 1.6022011077404024,
+        "head_only": 1.2026669263839722,
+        "full_ft": 1.1686595410108567,
+        "rfsal": 1.1989604234695435,
+        "random_match": 1.157506771683693
+      },
+      "params": {
+        "head_only": 525706.0,
+        "rfsal": 533283.6,
+        "random_match": 533283.6,
+        "full_ft": 545098.0
+      }
+    }
+  },
+  "tau_0.9": {
+    "clients": {
+      "0": {
+        "shift": {
+          "conv1": 0.1197836622595787,
+          "conv2": 0.13893872499465942,
+          "fc1": 0.24574093520641327
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.657718575000763,
+            "accuracy": 0.3640625
+          },
+          "head_only": {
+            "loss": 1.2111185222864151,
+            "accuracy": 0.55
+          },
+          "full_ft": {
+            "loss": 1.2421301245689391,
+            "accuracy": 0.5546875
+          },
+          "rfsal": {
+            "loss": 1.2724584847688676,
+            "accuracy": 0.5125
+          },
+          "random_match": {
+            "loss": 1.264775413274765,
+            "accuracy": 0.53125
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "1": {
+        "shift": {
+          "conv1": 0.035572923719882965,
+          "conv2": 0.039233431220054626,
+          "fc1": 0.07785870134830475
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.8272035002708436,
+            "accuracy": 0.35625
+          },
+          "head_only": {
+            "loss": 1.0143382161855699,
+            "accuracy": 0.6609375
+          },
+          "full_ft": {
+            "loss": 1.102877002954483,
+            "accuracy": 0.6265625
+          },
+          "rfsal": {
+            "loss": 1.1102894335985183,
+            "accuracy": 0.6140625
+          },
+          "random_match": {
+            "loss": 1.0229822188615798,
+            "accuracy": 0.6796875
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "2": {
+        "shift": {
+          "conv1": 0.028450211510062218,
+          "conv2": 0.04242124408483505,
+          "fc1": 0.08021262288093567
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.698708438873291,
+            "accuracy": 0.35625
+          },
+          "head_only": {
+            "loss": 1.3163542985916137,
+            "accuracy": 0.5015625
+          },
+          "full_ft": {
+            "loss": 1.3134136259555818,
+            "accuracy": 0.5203125
+          },
+          "rfsal": {
+            "loss": 1.31268972158432,
+            "accuracy": 0.55625
+          },
+          "random_match": {
+            "loss": 1.327196055650711,
+            "accuracy": 0.534375
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 525706,
+          "random_match": 525706,
+          "full_ft": 545098
+        }
+      },
+      "3": {
+        "shift": {
+          "conv1": 0.055439725518226624,
+          "conv2": 0.05146797001361847,
+          "fc1": 0.05758766457438469
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2",
+          "conv1"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2",
+          "conv2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.4595045268535614,
+            "accuracy": 0.49375
+          },
+          "head_only": {
+            "loss": 1.2615721195936203,
+            "accuracy": 0.5359375
+          },
+          "full_ft": {
+            "loss": 1.2444060862064361,
+            "accuracy": 0.5640625
+          },
+          "rfsal": {
+            "loss": 1.2748541206121444,
+            "accuracy": 0.5484375
+          },
+          "random_match": {
+            "loss": 1.2689959168434144,
+            "accuracy": 0.5765625
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 526602,
+          "random_match": 544202,
+          "full_ft": 545098
+        }
+      },
+      "4": {
+        "shift": {
+          "conv1": 0.08984902501106262,
+          "conv2": 0.11349911987781525,
+          "fc1": 0.11608052253723145
+        },
+        "selected_layers": [
+          "fc1",
+          "fc2",
+          "conv2"
+        ],
+        "random_layers": [
+          "fc1",
+          "fc2",
+          "conv2"
+        ],
+        "metrics": {
+          "no_adapt": {
+            "loss": 1.3874295234680176,
+            "accuracy": 0.5140625
+          },
+          "head_only": {
+            "loss": 1.1227747410535813,
+            "accuracy": 0.5734375
+          },
+          "full_ft": {
+            "loss": 1.0537332326173783,
+            "accuracy": 0.6015625
+          },
+          "rfsal": {
+            "loss": 1.083176463842392,
+            "accuracy": 0.5625
+          },
+          "random_match": {
+            "loss": 1.0494968503713609,
+            "accuracy": 0.6109375
+          }
+        },
+        "params": {
+          "head_only": 525706,
+          "rfsal": 544202,
+          "random_match": 544202,
+          "full_ft": 545098
+        }
+      }
+    },
+    "mean": {
+      "accuracy": {
+        "no_adapt": 0.416875,
+        "head_only": 0.564375,
+        "full_ft": 0.5734375,
+        "rfsal": 0.5587500000000001,
+        "random_match": 0.5865625
+      },
+      "loss": {
+        "no_adapt": 1.6061129128932954,
+        "head_only": 1.18523157954216,
+        "full_ft": 1.1913120144605638,
+        "rfsal": 1.2106936448812484,
+        "random_match": 1.1866892910003661
+      },
+      "params": {
+        "head_only": 525706.0,
+        "rfsal": 529584.4,
+        "random_match": 533104.4,
+        "full_ft": 545098.0
+      }
+    }
+  }
+}

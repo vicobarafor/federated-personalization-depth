@@ -1,0 +1,10 @@
+{
+  "experiment_name": "emnist_balanced_alpha01_seed1",
+  "num_clients": 20,
+  "alpha": 0.1,
+  "seed": 1,
+  "num_classes": 47,
+  "rounds": 5,
+  "local_epochs": 1,
+  "batch_size": 32
+}

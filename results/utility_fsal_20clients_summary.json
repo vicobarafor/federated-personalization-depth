@@ -1,0 +1,8 @@
+{
+  "policy_classification_accuracy": 0.45,
+  "head_only_mean_acc": 0.6100698366895874,
+  "conv2_head_mean_acc": 0.6007585338899804,
+  "utility_fsal_mean_acc": 0.6023354616895873,
+  "num_clients": 20,
+  "alpha": 0.3
+}

@@ -1,0 +1,16 @@
+{
+  "fedavg_metrics": {
+    "loss": 1.8885865032196045,
+    "accuracy": 0.3252
+  },
+  "oracle_summary": {
+    "head_only_mean_acc": 0.41968750000000005,
+    "conv2_head_mean_acc": 0.416796875,
+    "full_ft_mean_acc": 0.4093750000000001,
+    "wins": {
+      "head_only": 8,
+      "conv2_head": 7,
+      "full_ft": 5
+    }
+  }
+}

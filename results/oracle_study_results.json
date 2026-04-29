@@ -1,0 +1,222 @@
+{
+  "0": {
+    "shift": {
+      "conv1": 0.12034627050161362,
+      "conv2": 0.139592707157135,
+      "fc1": 0.2468930184841156
+    },
+    "shift_scores": {
+      "head_only": 0.2468930184841156,
+      "conv1_head": 0.3672392889857292,
+      "conv2_head": 0.3864857256412506,
+      "full_ft": 0.5068319961428642
+    },
+    "shift_rank": [
+      "full_ft",
+      "conv2_head",
+      "conv1_head",
+      "head_only"
+    ],
+    "oracle_rank": [
+      "head_only",
+      "full_ft",
+      "conv1_head",
+      "conv2_head"
+    ],
+    "oracle_best": "head_only",
+    "candidate_metrics": {
+      "head_only": {
+        "loss": 1.233888217806816,
+        "accuracy": 0.5625
+      },
+      "conv1_head": {
+        "loss": 1.199835741519928,
+        "accuracy": 0.55625
+      },
+      "conv2_head": {
+        "loss": 1.2432223320007325,
+        "accuracy": 0.540625
+      },
+      "full_ft": {
+        "loss": 1.2615776479244232,
+        "accuracy": 0.5625
+      }
+    }
+  },
+  "1": {
+    "shift": {
+      "conv1": 0.0362456813454628,
+      "conv2": 0.03877200186252594,
+      "fc1": 0.07685177028179169
+    },
+    "shift_scores": {
+      "head_only": 0.07685177028179169,
+      "conv1_head": 0.11309745162725449,
+      "conv2_head": 0.11562377214431763,
+      "full_ft": 0.15186945348978043
+    },
+    "shift_rank": [
+      "full_ft",
+      "conv2_head",
+      "conv1_head",
+      "head_only"
+    ],
+    "oracle_rank": [
+      "conv2_head",
+      "conv1_head",
+      "head_only",
+      "full_ft"
+    ],
+    "oracle_best": "conv2_head",
+    "candidate_metrics": {
+      "head_only": {
+        "loss": 1.0347431898117065,
+        "accuracy": 0.65
+      },
+      "conv1_head": {
+        "loss": 0.9967572808265686,
+        "accuracy": 0.65625
+      },
+      "conv2_head": {
+        "loss": 0.9929328262805939,
+        "accuracy": 0.6796875
+      },
+      "full_ft": {
+        "loss": 1.0598802059888839,
+        "accuracy": 0.634375
+      }
+    }
+  },
+  "2": {
+    "shift": {
+      "conv1": 0.027492253109812737,
+      "conv2": 0.04096780717372894,
+      "fc1": 0.07745985686779022
+    },
+    "shift_scores": {
+      "head_only": 0.07745985686779022,
+      "conv1_head": 0.10495210997760296,
+      "conv2_head": 0.11842766404151917,
+      "full_ft": 0.1459199171513319
+    },
+    "shift_rank": [
+      "full_ft",
+      "conv2_head",
+      "conv1_head",
+      "head_only"
+    ],
+    "oracle_rank": [
+      "head_only",
+      "full_ft",
+      "conv1_head",
+      "conv2_head"
+    ],
+    "oracle_best": "head_only",
+    "candidate_metrics": {
+      "head_only": {
+        "loss": 1.3199698984622956,
+        "accuracy": 0.5359375
+      },
+      "conv1_head": {
+        "loss": 1.3112461507320403,
+        "accuracy": 0.528125
+      },
+      "conv2_head": {
+        "loss": 1.3254072427749635,
+        "accuracy": 0.5265625
+      },
+      "full_ft": {
+        "loss": 1.3104159951210022,
+        "accuracy": 0.5328125
+      }
+    }
+  },
+  "3": {
+    "shift": {
+      "conv1": 0.05611593276262283,
+      "conv2": 0.052836183458566666,
+      "fc1": 0.05967357009649277
+    },
+    "shift_scores": {
+      "head_only": 0.05967357009649277,
+      "conv1_head": 0.1157895028591156,
+      "conv2_head": 0.11250975355505943,
+      "full_ft": 0.16862568631768227
+    },
+    "shift_rank": [
+      "full_ft",
+      "conv1_head",
+      "conv2_head",
+      "head_only"
+    ],
+    "oracle_rank": [
+      "head_only",
+      "conv1_head",
+      "conv2_head",
+      "full_ft"
+    ],
+    "oracle_best": "head_only",
+    "candidate_metrics": {
+      "head_only": {
+        "loss": 1.2058049499988557,
+        "accuracy": 0.5671875
+      },
+      "conv1_head": {
+        "loss": 1.2892632126808166,
+        "accuracy": 0.5453125
+      },
+      "conv2_head": {
+        "loss": 1.2745543479919434,
+        "accuracy": 0.5234375
+      },
+      "full_ft": {
+        "loss": 1.3368517726659774,
+        "accuracy": 0.5234375
+      }
+    }
+  },
+  "4": {
+    "shift": {
+      "conv1": 0.0902264341711998,
+      "conv2": 0.11384722590446472,
+      "fc1": 0.11783279478549957
+    },
+    "shift_scores": {
+      "head_only": 0.11783279478549957,
+      "conv1_head": 0.20805922895669937,
+      "conv2_head": 0.2316800206899643,
+      "full_ft": 0.3219064548611641
+    },
+    "shift_rank": [
+      "full_ft",
+      "conv2_head",
+      "conv1_head",
+      "head_only"
+    ],
+    "oracle_rank": [
+      "conv2_head",
+      "head_only",
+      "conv1_head",
+      "full_ft"
+    ],
+    "oracle_best": "conv2_head",
+    "candidate_metrics": {
+      "head_only": {
+        "loss": 1.0442515909671783,
+        "accuracy": 0.5828125
+      },
+      "conv1_head": {
+        "loss": 1.1439315378665924,
+        "accuracy": 0.56875
+      },
+      "conv2_head": {
+        "loss": 1.0076744437217713,
+        "accuracy": 0.6140625
+      },
+      "full_ft": {
+        "loss": 1.093515545129776,
+        "accuracy": 0.5546875
+      }
+    }
+  }
+}

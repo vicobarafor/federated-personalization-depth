@@ -1,0 +1,10 @@
+{
+  "experiment_name": "cifar10_alpha03_seed0_testharness",
+  "num_clients": 20,
+  "alpha": 0.3,
+  "seed": 0,
+  "num_classes": 10,
+  "rounds": 5,
+  "local_epochs": 1,
+  "batch_size": 32
+}
