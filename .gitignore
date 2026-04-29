@@ -30,8 +30,9 @@ wandb/
 # System files
 .DS_Store
 
-# Temporary packaging artifacts
+# Temporary / private packaging artifacts
 *chatgpt*
 *backup*
 *tmp*
 *temp*
+results_FINAL_CAMERA_READY/

@@ -1,23 +1,23 @@
 # Figures Explained
 
-This document explains the main figures included in the repository.
+This document explains the figures shown in the README.
 
 ## Oracle Headroom
 
-`oracle_headroom.png` reports the gain from client-wise oracle depth routing over the strongest fixed personalization policy.
+`oracle_headroom.png` shows recoverable gains from client-wise oracle routing over the strongest fixed policy.
 
 ## Client Depth Distribution
 
-`client_depth_distribution.png` shows which personalization depth is oracle-best for each client across datasets.
+`client_depth_distribution.png` shows which personalization depth is oracle-best across client instances.
 
-## Client Oracle Gain Histogram
+## Per-Client Oracle Gain Histogram
 
-`client_oracle_gain_histogram.png` shows the distribution of per-client recoverable gains from adaptive depth routing.
+`client_oracle_gain_histogram.png` shows the distribution of per-client gains from adaptive depth routing.
 
 ## Oracle-Fixed Disagreement
 
-`oracle_fixed_disagreement_matrix.png` compares the best fixed policy in a run against the oracle-best client-specific policy.
+`oracle_fixed_disagreement_matrix.png` shows mismatches between the best fixed policy and client-wise oracle choices.
 
 ## Oracle Win Margins
 
-`oracle_win_margin_histogram.png` measures how clearly the best policy separates from the second-best policy for each client.
+`oracle_win_margin_histogram.png` shows how clearly the best depth separates from alternatives.

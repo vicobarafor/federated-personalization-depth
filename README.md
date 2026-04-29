@@ -2,7 +2,7 @@
 
 ## Adaptation Depth in Federated Learning
 
-This repository contains the implementation, experimental artifacts, and analysis for a research study on **client-specific personalization depth in federated learning**.
+This repository contains the implementation, experimental artifacts, figures, and analysis for a research study on **client-specific personalization depth in federated learning**.
 
 The central question is:
 
@@ -46,20 +46,14 @@ Each dataset is evaluated under Dirichlet non-IID client partitions with multipl
 
 ```text
 federated-personalization-depth/
-├── src/                       # Core implementation
-│   ├── data/                  # Dataset loading and client partitioning
-│   ├── experiments/           # Experiment drivers and oracle/selector studies
-│   ├── fl/                    # Federated learning and personalization modules
-│   ├── models/                # Model definitions
-│   └── utils/                 # Evaluation and helper utilities
-├── configs/                   # Dataset-level experiment configurations
-├── scripts/                   # Reproduction and analysis helpers
-├── results/                   # Raw and aggregated experiment outputs
-├── results_FINAL_CAMERA_READY/ # Final paper-ready result package
-├── figures/                   # Consolidated final figures
-├── analysis/                  # Analysis notes and diagnostics
-├── docs/                      # Methodology and reproducibility documentation
-├── notebooks/                 # Exploratory notebooks
+├── src/             # Core implementation
+├── configs/         # Dataset-level experiment configurations
+├── scripts/         # Reproduction and analysis helpers
+├── results/         # Raw and aggregated experiment outputs
+├── figures/         # Consolidated final figures
+├── analysis/        # Analysis notes and diagnostics
+├── docs/            # Methodology and reproducibility documentation
+├── notebooks/       # Exploratory notebooks
 ├── pyproject.toml
 ├── requirements.txt
 └── README.md
@@ -105,19 +99,13 @@ Aggregate stored results:
 python scripts/aggregate_results.py
 ```
 
-Refresh consolidated figures from final artifacts:
+Verify figure availability:
 
 ```bash
 python scripts/reproduce_figures.py
 ```
 
-Example experiment pipeline:
-
-```bash
-bash scripts/run_example_pipeline.sh
-```
-
-The repository includes stored outputs and paper-ready figures so that the main empirical claims can be inspected without rerunning the full experimental sweep.
+The repository includes stored outputs and final figures so that the main empirical claims can be inspected without rerunning the full experimental sweep.
 
 ## Limitations
 
