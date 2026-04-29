@@ -1,6 +1,8 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .ipynb_checkpoints/
 
 # Environments
@@ -8,7 +10,7 @@ __pycache__/
 .venv/
 venv/
 
-# Raw datasets (DO NOT PUSH)
+# Raw datasets and downloaded data
 data/
 *.ubyte
 *.gz
@@ -16,15 +18,17 @@ data/
 *.tar
 *.tar.gz
 
-# Large artifacts
+# Large model artifacts
 checkpoints/
+runs/
+wandb/
 *.pt
 *.pth
 *.ckpt
 *.pkl
 
-# System
+# System files
 .DS_Store
 
-# Junk
+# Temporary packaging artifacts
 results_package_for_chatgpt.zip
