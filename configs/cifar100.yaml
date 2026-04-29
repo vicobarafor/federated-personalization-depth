@@ -1,0 +1,8 @@
+dataset: cifar100
+display_name: CIFAR-100
+clients: 20
+dirichlet_alpha: [0.1, 0.3, 1.0]
+seeds: [0, 1, 2]
+policies: [head_only, conv2_head, full_ft]
+global_method: fedavg
+evaluation: client_test_accuracy

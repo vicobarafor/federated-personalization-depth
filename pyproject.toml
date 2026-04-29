@@ -1,0 +1,8 @@
+[project]
+name = "federated-personalization-depth"
+version = "0.1.0"
+description = "Client-specific personalization depth in federated learning."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Victor Obarafor"}]

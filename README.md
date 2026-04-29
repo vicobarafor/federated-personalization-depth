@@ -2,9 +2,9 @@
 
 ## Adaptation Depth in Federated Learning
 
-This repository contains the implementation, experimental artifacts, figures, and manuscript for a research study on **client-specific personalization depth in federated learning**.
+This repository contains the implementation, experimental artifacts, and analysis for a research study on **client-specific personalization depth in federated learning**.
 
-The central research question is:
+The central question is:
 
 > How much of a shared model should each client personalize after federated training?
 
@@ -16,7 +16,7 @@ Personalization depth is not globally optimal. Different clients can prefer diff
 
 Personalized federated learning is commonly motivated by client heterogeneity, but many systems still apply the same adaptation strategy to every client. This project studies **personalization depth** as a client-dependent decision.
 
-We compare three post-hoc personalization policies:
+The study compares three post-hoc personalization policies:
 
 - **Head-only fine-tuning**
 - **Partial fine-tuning**
@@ -46,17 +46,17 @@ Each dataset is evaluated under Dirichlet non-IID client partitions with multipl
 
 ```text
 federated-personalization-depth/
-├── src/
+├── src/                       # Core implementation
 │   ├── data/                  # Dataset loading and client partitioning
 │   ├── experiments/           # Experiment drivers and oracle/selector studies
 │   ├── fl/                    # Federated learning and personalization modules
 │   ├── models/                # Model definitions
 │   └── utils/                 # Evaluation and helper utilities
-├── configs/                   # Experiment configuration files
-├── scripts/                   # Reproduction and execution helpers
+├── configs/                   # Dataset-level experiment configurations
+├── scripts/                   # Reproduction and analysis helpers
 ├── results/                   # Raw and aggregated experiment outputs
 ├── results_FINAL_CAMERA_READY/ # Final paper-ready result package
-├── figures/                   # Consolidated paper and appendix figures
+├── figures/                   # Consolidated final figures
 ├── analysis/                  # Analysis notes and diagnostics
 ├── docs/                      # Methodology and reproducibility documentation
 ├── notebooks/                 # Exploratory notebooks
@@ -91,26 +91,6 @@ federated-personalization-depth/
 
 ![Oracle win margin histogram](figures/oracle_win_margin_histogram.png)
 
-Additional final figures are available in `figures/` and `results_FINAL_CAMERA_READY/`.
-
-## Code Organization
-
-### `src/data/`
-
-Dataset loading and client partitioning utilities for the benchmark datasets used in the study.
-
-### `src/fl/`
-
-Federated learning and personalization components, including FedAvg, client-side adaptation, oracle-study utilities, personalization probes, and FSAL-style client variants.
-
-### `src/experiments/`
-
-Experiment entry points for FedAvg training, personalization-oracle evaluation, oracle regret analysis, selector benchmarking, learned selector experiments, and dynamic selector studies.
-
-### `results/`
-
-Raw and aggregated outputs from multi-dataset, multi-alpha, and multi-seed experiments.
-
 ## Reproducibility
 
 Install dependencies:
@@ -119,25 +99,25 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run FedAvg pretraining:
+Aggregate stored results:
 
 ```bash
-python src/experiments/fedavg_train.py --dataset cifar10 --alpha 0.3 --seed 0
+python scripts/aggregate_results.py
 ```
 
-Run personalization-oracle evaluation:
+Refresh consolidated figures from final artifacts:
 
 ```bash
-python src/experiments/personalization_oracle.py --dataset cifar10 --alpha 0.3 --seed 0
+python scripts/reproduce_figures.py
 ```
 
-Run selector benchmarking:
+Example experiment pipeline:
 
 ```bash
-python src/experiments/selector_benchmark.py
+bash scripts/run_example_pipeline.sh
 ```
 
-The repository includes stored results and paper-ready figures so that the main empirical claims can be inspected without rerunning the full experimental sweep.
+The repository includes stored outputs and paper-ready figures so that the main empirical claims can be inspected without rerunning the full experimental sweep.
 
 ## Limitations
 
@@ -145,14 +125,6 @@ The repository includes stored results and paper-ready figures so that the main 
 - Lightweight selectors do not consistently recover oracle-level gains.
 - Experiments focus on controlled benchmark datasets with synthetic Dirichlet partitions.
 - Additional validation on real-world federated datasets would strengthen external validity.
-
-## Paper
-
-A paper manuscript is included in the project artifacts. This work is being prepared for external academic review and submission.
-
-If `paper/main.pdf` is present, the manuscript can be opened directly from:
-
-[paper/main.pdf](paper/main.pdf)
 
 ## Research Contribution
 
